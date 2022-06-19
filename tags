@@ -1,0 +1,151 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CAGenerator	inpaint_model.py	/^class CAGenerator(nn.Module):$/;"	c
+COLORWHEEL	utils.py	/^COLORWHEEL = make_color_wheel()$/;"	v
+CelebDataset	dataloader.py	/^class CelebDataset(Dataset):$/;"	c
+CoarseNet	inpaint_model.py	/^class CoarseNet(nn.Module):$/;"	c
+Contextual_Attention	inpaint_modules.py	/^class Contextual_Attention(nn.Module):$/;"	c
+D	inpaint_model.py	/^    D = SNDiscriminator()$/;"	v	class:SNDiscriminator
+G	inpaint_model.py	/^    G = CAGenerator()$/;"	v	class:SNDiscriminator
+Gated_Conv	inpaint_modules.py	/^class Gated_Conv(nn.Module):$/;"	c
+Gated_Deconv	inpaint_modules.py	/^class Gated_Deconv(nn.Module):$/;"	c
+HED_Network	hed_pytorch/hed_run.py	/^class HED_Network(torch.nn.Module):$/;"	c
+RefineNet	inpaint_model.py	/^class RefineNet(nn.Module):$/;"	c
+Run	backup_run.py	/^class Run(object):$/;"	c
+Run	debug.py	/^class Run(object):$/;"	c
+Run	prev_run.py	/^class Run(object):$/;"	c
+Run	run.py	/^class Run(object):$/;"	c
+Run	run_CL.py	/^class Run(object):$/;"	c
+SNDiscriminator	inpaint_model.py	/^class SNDiscriminator(nn.Module):$/;"	c
+SN_Conv	inpaint_modules.py	/^class SN_Conv(nn.Module):$/;"	c
+SpectralNorm	inpaint_modules.py	/^class SpectralNorm(nn.Module):$/;"	c
+__getitem__	dataloader.py	/^    def __getitem__(self, index):$/;"	m	class:CelebDataset	file:
+__init__	backup_run.py	/^    def __init__(self,args):$/;"	m	class:Run
+__init__	dataloader.py	/^    def __init__(self, transform, mode, FLAGS):$/;"	m	class:CelebDataset
+__init__	debug.py	/^    def __init__(self,args):$/;"	m	class:Run
+__init__	hed_pytorch/hed_run.py	/^	def __init__(self):$/;"	m	class:HED_Network
+__init__	inpaint_model.py	/^    def __init__(self,in_ch=3,cnum=48):$/;"	m	class:RefineNet
+__init__	inpaint_model.py	/^    def __init__(self,in_ch=5,cnum=48):$/;"	m	class:CoarseNet
+__init__	inpaint_model.py	/^    def __init__(self,in_ch=5,cnum=48,):$/;"	m	class:CAGenerator
+__init__	inpaint_model.py	/^    def __init__(self,in_ch=5,cnum=64):$/;"	m	class:SNDiscriminator
+__init__	inpaint_modules.py	/^    def __init__(self, module, name='weight', power_iterations=1):$/;"	m	class:SpectralNorm
+__init__	inpaint_modules.py	/^    def __init__(self,in_ch,out_ch,ksize=3,stride=1,rate=1,activation=nn.ELU()):$/;"	m	class:Gated_Conv
+__init__	inpaint_modules.py	/^    def __init__(self,in_ch,out_ch,ksize=3,stride=1,rate=1,activation=nn.ELU()):$/;"	m	class:Gated_Deconv
+__init__	inpaint_modules.py	/^    def __init__(self,in_ch,out_ch,ksize=3,stride=1,rate=1,activation=nn.LeakyReLU()):$/;"	m	class:SN_Conv
+__init__	inpaint_modules.py	/^    def __init__(self,ksize=3,stride=1,rate=2,fuse_k=3,padding=1,softmax_scale=10.,training=True,fuse=True):$/;"	m	class:Contextual_Attention
+__init__	prev_run.py	/^    def __init__(self,args):$/;"	m	class:Run
+__init__	run.py	/^    def __init__(self,args):$/;"	m	class:Run
+__init__	run_CL.py	/^    def __init__(self,args):$/;"	m	class:Run
+__len__	dataloader.py	/^    def __len__(self):$/;"	m	class:CelebDataset	file:
+_made_params	inpaint_modules.py	/^    def _made_params(self):$/;"	m	class:SpectralNorm
+_make_params	inpaint_modules.py	/^    def _make_params(self):$/;"	m	class:SpectralNorm
+_update_u_v	inpaint_modules.py	/^    def _update_u_v(self):$/;"	m	class:SpectralNorm
+args	backup_run.py	/^    args = config()$/;"	v	class:Run
+args	debug.py	/^    args = config()$/;"	v	class:Run
+args	preproccess_edge.py	/^args = parser.parse_args()$/;"	v
+args	prev_run.py	/^    args = config()$/;"	v	class:Run
+args	run.py	/^    args = config()$/;"	v	class:Run
+args	run_CL.py	/^    args = config()$/;"	v	class:Run
+args	utils.py	/^    args = paser.parse_args()$/;"	v
+arguments_strIn	hed_pytorch/hed_run.py	/^	arguments_strIn = '.\/images\/sample.png'$/;"	v
+arguments_strModel	hed_pytorch/hed_run.py	/^	arguments_strModel = 'bsds500'$/;"	v
+arguments_strOut	hed_pytorch/hed_run.py	/^	arguments_strOut = '.\/out.png'$/;"	v
+backprop	backup_run.py	/^    def backprop(self,G=True,D=True):$/;"	m	class:Run
+backprop	debug.py	/^    def backprop(self,G=True,D=True):$/;"	m	class:Run
+backprop	prev_run.py	/^    def backprop(self,G=True,D=True):$/;"	m	class:Run
+backprop	run.py	/^    def backprop(self,G=True,D=True):$/;"	m	class:Run
+backprop	run_CL.py	/^    def backprop(self,G=True,D=True):$/;"	m	class:Run
+base_name	preproccess_edge.py	/^        base_name = img_name.split('.')[0]$/;"	v
+bbox2mask	utils.py	/^def bbox2mask(FLAGS,bbox,name='mask'):$/;"	f
+brush_stroke_mask	utils.py	/^def brush_stroke_mask(FLAGS,name='mask', severity=1):$/;"	f
+brush_width	preproccess_edge.py	/^                brush_width = 3$/;"	v
+compute_color	utils.py	/^def compute_color(u,v):$/;"	f
+config	config.py	/^def config():$/;"	f
+debug	inpaint_model.py	/^    def debug(self):$/;"	m	class:CAGenerator
+debug	inpaint_model.py	/^    def debug(self):$/;"	m	class:CoarseNet
+debug	inpaint_model.py	/^    def debug(self):$/;"	m	class:RefineNet
+debug_val	inpaint_modules.py	/^    def debug_val(self):$/;"	m	class:Gated_Conv
+down_sample	utils.py	/^def down_sample(x,size=None,scale_factor=None,mode='nearest'):$/;"	f
+draw	facial_landmark_detector/face_detector.py	/^    draw = ImageDraw.Draw(img)$/;"	v
+draw	preproccess_edge.py	/^                draw = ImageDraw.Draw(out_img)$/;"	v
+epsilon	inpaint_modules.py	/^epsilon = 1e-10$/;"	v
+epsilon	utils.py	/^epsilon = 1e-10$/;"	v
+estimate	hed_pytorch/hed_run.py	/^def estimate(model,tensorInput):$/;"	f
+extract_patches	inpaint_modules.py	/^    def extract_patches(self,x,ksize=3,stride=1):$/;"	m	class:Contextual_Attention
+facial_landmark_detector	facial_landmark_detector/face_detector.py	/^def facial_landmark_detector(face_img_path,predictor_path):$/;"	f
+flow_to_image	utils.py	/^def flow_to_image(flow):$/;"	f
+forward	hed_pytorch/hed_run.py	/^	def forward(self, tensorInput):$/;"	m	class:HED_Network
+forward	inpaint_model.py	/^    def forward(self, xin, mask):$/;"	m	class:RefineNet
+forward	inpaint_model.py	/^    def forward(self,x):$/;"	m	class:CoarseNet
+forward	inpaint_model.py	/^    def forward(self,x):$/;"	m	class:SNDiscriminator
+forward	inpaint_model.py	/^    def forward(self,xin,mask):$/;"	m	class:CAGenerator
+forward	inpaint_modules.py	/^    def forward(self, *args):$/;"	m	class:SpectralNorm
+forward	inpaint_modules.py	/^    def forward(self, f, b, mask=None):$/;"	m	class:Contextual_Attention
+forward	inpaint_modules.py	/^    def forward(self, x):$/;"	m	class:Gated_Conv
+forward	inpaint_modules.py	/^    def forward(self, x):$/;"	m	class:Gated_Deconv
+forward	inpaint_modules.py	/^    def forward(self,x):$/;"	m	class:SN_Conv
+gan_hinge_loss	backup_run.py	/^    def gan_hinge_loss(self,pos,neg,name='gan_hinge_loss'):$/;"	m	class:Run
+gan_hinge_loss	debug.py	/^    def gan_hinge_loss(self,pos,neg,name='gan_hinge_loss'):$/;"	m	class:Run
+gan_hinge_loss	prev_run.py	/^    def gan_hinge_loss(self,pos,neg,name='gan_hinge_loss'):$/;"	m	class:Run
+gan_hinge_loss	run.py	/^    def gan_hinge_loss(self,pos,neg,name='gan_hinge_loss'):$/;"	m	class:Run
+gan_hinge_loss	run_CL.py	/^    def gan_hinge_loss(self,pos,neg,name='gan_hinge_loss'):$/;"	m	class:Run
+generate_mask	utils.py	/^    def generate_mask(H,W):$/;"	f	function:brush_stroke_mask
+get_loader	dataloader.py	/^def get_loader(batch_size,FLAGS,dataset='CelebA', mode='train'):$/;"	f
+hed_model	preproccess_edge.py	/^    hed_model = HED_Network()$/;"	v
+hed_model	preproccess_edge.py	/^    hed_model = hed_model.cuda().eval()$/;"	v
+img	preproccess_edge.py	/^        img = Image.open(os.path.join(args.img_read_path,img_name))$/;"	v
+img	preproccess_edge.py	/^        img = np.array(img)[:,:,::-1].transpose(2,0,1).astype(np.float32) \/ 255.$/;"	v
+img_flist	preproccess_edge.py	/^    img_flist = ['%06d.png'%i for i in range(75688,202600)]$/;"	v
+img_path	facial_landmark_detector/face_detector.py	/^    img_path = '.\/images\/000003.png'$/;"	v
+img_tensor	preproccess_edge.py	/^        img_tensor = torch.FloatTensor(img).view(1,c,h,w).cuda()$/;"	v
+init_network	backup_run.py	/^    def init_network(self):$/;"	m	class:Run
+init_network	debug.py	/^    def init_network(self):$/;"	m	class:Run
+init_network	prev_run.py	/^    def init_network(self):$/;"	m	class:Run
+init_network	run.py	/^    def init_network(self):$/;"	m	class:Run
+init_network	run_CL.py	/^    def init_network(self):$/;"	m	class:Run
+l2_norm	utils.py	/^def l2_norm(x):$/;"	f
+l2normalize	utils.py	/^def l2normalize(v, eps=1e-12):$/;"	f
+left_eye	preproccess_edge.py	/^                left_eye = pt_pos_list[36:42]$/;"	v
+left_eyebrow	preproccess_edge.py	/^                left_eyebrow = pt_pos_list[17:22]$/;"	v
+make_color_wheel	utils.py	/^def make_color_wheel():$/;"	f
+mask	utils.py	/^    mask = brush_stroke_mask(FLAGS=args)$/;"	v
+moduleNetwork	hed_pytorch/hed_run.py	/^	moduleNetwork = HED_Network()$/;"	v
+mouth	preproccess_edge.py	/^                mouth = pt_pos_list[48:68]$/;"	v
+nose	preproccess_edge.py	/^                nose = pt_pos_list[27:36]$/;"	v
+npmask	utils.py	/^    def npmask(bbox,height,width,delta_h,delta_w):$/;"	f	function:bbox2mask
+out	preproccess_edge.py	/^        out = (out_tensor * 255.).numpy().astype(np.uint8)$/;"	v
+out_img	preproccess_edge.py	/^        out_img = Image.fromarray(out)$/;"	v
+out_name	preproccess_edge.py	/^        out_name = base_name + '.png'$/;"	v
+out_tensor	preproccess_edge.py	/^        out_tensor = hed_model(img_tensor)$/;"	v
+out_tensor	preproccess_edge.py	/^        out_tensor = out_tensor[0,:,:,:].clamp(0.,1.).permute(1,2,0)[:,:,0].cpu()$/;"	v
+outline	preproccess_edge.py	/^                outline = pt_pos_list[0:17]$/;"	v
+parser	preproccess_edge.py	/^parser = argparse.ArgumentParser()$/;"	v
+paser	utils.py	/^    paser = argparse.ArgumentParser()$/;"	v
+predictor_path	facial_landmark_detector/face_detector.py	/^    predictor_path = '.\/shape_predictor_68_face_landmarks.dat'$/;"	v
+preprocess	dataloader.py	/^    def preprocess(self):$/;"	m	class:CelebDataset
+pt_pos_list	facial_landmark_detector/face_detector.py	/^    pt_pos_list = []$/;"	v
+pt_pos_list	preproccess_edge.py	/^            pt_pos_list = []$/;"	v
+random_bbox	utils.py	/^def random_bbox(FLAGS):$/;"	f
+reduce_mean	utils.py	/^def reduce_mean(x,dim=[2,3]):$/;"	f
+reduce_sum	utils.py	/^def reduce_sum(x,dim=[0,2,3]):$/;"	f
+resize_mask_like	inpaint_model.py	/^    def resize_mask_like(self,mask,x):$/;"	m	class:RefineNet
+right_eye	preproccess_edge.py	/^                right_eye = pt_pos_list[42:48]$/;"	v
+right_eyebrow	preproccess_edge.py	/^                right_eyebrow = pt_pos_list[22:27]$/;"	v
+runer	backup_run.py	/^    runer = Run(args)$/;"	v	class:Run
+runer	debug.py	/^    runer = Run(args)$/;"	v	class:Run
+runer	prev_run.py	/^    runer = Run(args)$/;"	v	class:Run
+runer	run.py	/^    runer = Run(args)$/;"	v	class:Run
+runer	run_CL.py	/^    runer = Run(args)$/;"	v	class:Run
+start_time	prev_run.py	/^    start_time = time.time()$/;"	v	class:Run
+tensorInput	hed_pytorch/hed_run.py	/^	tensorInput = torch.FloatTensor(numpy.array(PIL.Image.open(arguments_strIn))[:, :, ::-1].transpose(2, 0, 1).astype(numpy.float32) * (1.0 \/ 255.0))$/;"	v
+tensorOutput	hed_pytorch/hed_run.py	/^	tensorOutput = estimate(moduleNetwork,tensorInput)$/;"	v
+train	backup_run.py	/^    def train(self):$/;"	m	class:Run
+train	debug.py	/^    def train(self):$/;"	m	class:Run
+train	prev_run.py	/^    def train(self):$/;"	m	class:Run
+train	run.py	/^    def train(self):$/;"	m	class:Run
+train	run_CL.py	/^    def train(self):$/;"	m	class:Run
+width	facial_landmark_detector/face_detector.py	/^    width = 3$/;"	v

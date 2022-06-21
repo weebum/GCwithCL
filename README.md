@@ -1,3 +1,7 @@
+### 0. Preliminary
+
+The code is based upon the Pytorch implementation https://github.com/KeyKy/generative-inpainting-2.0-pytorch of the work Free-form Image Inpainting with Gated Convolution (ICCV 2019) by Yu, et al.
+
 ### 1. Dependancy
 
 Requirement.txt 참고
